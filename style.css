@@ -199,3 +199,24 @@ button {
   top: -1rem;
   left: 0rem;
 }
+
+@media (max-width: 768px) {
+  #instagram-image {
+    display: none;
+  }
+
+  #first-form {
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    width: 20rem;
+  }
+
+  #second-form {
+    position: absolute;
+    left: 5rem;
+    top: 37.5rem;
+    width: 13.3rem;
+  }
+  
+}
