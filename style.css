@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: static;
+}
+main {
+  position: absolute;
+}
+
+#instagram-image {
+  margin: 2rem 20rem;
+  height: 42rem;
+}
+
+#first-form {
+  position: absolute;
+  right: -8rem;
+  top: 5rem;
+  border: 1px solid rgba(0, 0, 0, 0.235);
+  padding: 0 3rem;
+  padding-bottom: 1rem;
+}
+
+#instagram-text {
+  width: 100%;
+  height: 6rem;
+  max-width: 15rem;
+  position: relative;
+  left: 2rem;
+}
+
+input {
+  display: block;
+  width: 17rem;
+  height: 2.5rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  border-radius: 4px;
+  background-color: rgba(216, 216, 216, 0.247);
+  border-color: rgba(7, 8, 8, 0.169);
+}
+
+button {
+  /* position: relative;
+    left: 8rem; */
+  background-color: rgba(0, 72, 255, 0.667);
+  width: 19.2rem;
+  height: 2rem;
+  border-color: rgba(0, 72, 255, 0);
+  border-radius: 4px;
+  color: white;
+}
+
+.hr {
+  width: 5rem;
+}
+
+#first-hr {
+  position: relative;
+  right: 5rem;
+  top: 1.3rem;
+}
+
+#second-hr {
+  position: relative;
+  right: 0;
+  left: 5rem;
+  top: -1.9rem;
+}
+
+#or {
+  text-align: center;
+  margin-top: -0.02rem;
+}
+
+.facebook-icon {
+  height: 1.9rem;
+  width: 1.9rem;
+  position: relative;
+  left: 3.5rem;
+  top: -0.3rem;
+}
+
+#facebook-link {
+  position: relative;
+  left: 4rem;
+  top: -1rem;
+  text-decoration: none;
+}
+
+#forgot-password {
+  display: block;
+  position: relative;
+  left: 6.9rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#second-form {
+  position: absolute;
+  right: -8rem;
+  top: 31.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.235);
+  padding: 1rem 6.3rem;
+}
+
+#dont-have {
+  font-size: 1rem;
+}
+
+#sign-up {
+  text-decoration: none;
+  color: #0095f6;
+}
+
+#get-the {
+  position: relative;
+  left: 62rem;
+  top: -9.3rem;
+  font-weight: 200;
+}
+
+#apple-div {
+  background-color: black;
+  width: 100%;
+  max-width: 10rem;
+  height: 3rem;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  left: 53.5rem;
+  top: -9.5rem;
+  cursor: pointer;
+}
+
+#apple {
+  height: 3rem;
+  position: relative;
+  top: -0.1rem;
+}
+
+#download {
+  position: relative;
+  left: 3.1rem;
+  top: -3.5rem;
+}
+
+#download p {
+  position: relative;
+  left: 0.3rem;
+  font-size: 0.8rem;
+}
+
+#download h3 {
+  font-size: 1rem;
+  position: relative;
+  top: -1rem;
+  left: 0.5rem;
+}
+
+#play-store {
+  background-color: black;
+  width: 100%;
+  max-width: 10rem;
+  height: 3rem;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  left: 65rem;
+  top: -12.5rem;
+  cursor: pointer;
+}
+
+#store {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  top: -0.5rem;
+  right: 0.5rem;
+}
+
+#download-store {
+  position: relative;
+  left: 3.1rem;
+  top: -4.3rem;
+}
+
+#download-store p {
+  position: relative;
+  left: 0.3rem;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+#download-store h3 {
+  font-size: 1.1rem;
+  position: relative;
+  top: -1rem;
+  left: 0rem;
+}
